@@ -4,7 +4,7 @@ while [ ${#urls[@]} -ne 0 ]
 do
     echo "new url: ${urls[0]}"
     content="$(curl -sL "${urls[0]}" | zgrep '')"
-    echo "$content" | grep "$grepForWord" | awk '{print "match found: "$0}'
+    echo "$content" | grep -i "$grepForWord" | awk '{print "match found: "$0}'
     paths=(`echo "$content" | grep -Po '(?<=href=")[^"]*'`)
     for path in "${paths[@]}"
     do
