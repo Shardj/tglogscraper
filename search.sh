@@ -1,5 +1,5 @@
-grepForWord="shardj"
-urls=("https://tgstation13.org/parsed-logs/terry/data/logs/2019/02/")
+grepForWord="stun"
+urls=("https://tgstation13.org/parsed-logs/terry/data/logs/2019/")
 while [ ${#urls[@]} -ne 0 ]
 do
     echo "new url: ${urls[0]}"
