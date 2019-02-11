@@ -1,5 +1,5 @@
 grepForWord="stun"
-urls=("https://tgstation13.org/parsed-logs/terry/data/logs/2019/")
+urls=("https://tgstation13.org/parsed-logs/basil/data/logs/2019/" "https://tgstation13.org/parsed-logs/sybil/data/logs/2019/" "https://tgstation13.org/parsed-logs/terry/data/logs/2019/")
 while [ ${#urls[@]} -ne 0 ]
 do
     echo "new url: ${urls[0]}"
