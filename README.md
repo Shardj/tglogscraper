@@ -1,5 +1,5 @@
 # tglogscraper
-bash log scraper for ss13 tg
+bash log scraper for ss13 tg https://github.com/tgstation/tgstation
 
 # installation
 Linux: Download the file and drop it under one of your /bin directories. Rename the file to whatever you'd like the command to be called.
